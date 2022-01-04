@@ -88,3 +88,53 @@ p {
   text-transform: capitalize;
   padding: 5% 0;
 }
+/* Third Page */
+.third-page {
+  padding: 5%;
+  background: url("../images/exp-bg.png") no-repeat;
+  background-position: left;
+}
+.third-page h1 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+.exp-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.exp-content {
+  width: 42%;
+  height: auto;
+  padding: 5% 3%;
+  box-shadow: 10px 10px 30px #576574;
+  border-radius: 5px;
+}
+.exp-content h2 {
+  font-size: 35px;
+  padding: 15px 0;
+}
+.exp-content h4 {
+  font-size: 20px;
+  padding: 10px 0;
+  color: #f39c12;
+}
+.exp-content p {
+  color: #3c3c3c;
+  text-transform: capitalize;
+}
+.developer {
+  border-image: linear-gradient(#e17055, #e84393);
+  border-image-slice: 1;
+  border-left: 9px solid;
+}
+.developer {
+  border-image: linear-gradient(#e17055, #e84393);
+  border-image-slice: 1;
+  border-left: 9px solid;
+}
+.learner {
+  border-image: linear-gradient(#5f27cd, #0abde3);
+  border-image-slice: 1;
+  border-left: 9px solid;
+}
