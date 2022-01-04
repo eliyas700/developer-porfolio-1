@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* First Page */
+.front-page {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.welcome-area {
+  width: 45%;
+  height: auto;
+}
+.welcome-area h1 {
+  font-size: 50px;
+  padding: 4% 0;
+  text-transform: capitalize;
+}
+.welcome-area h1 span {
+  color: #f39c12;
+}
+.welcome-area h3 {
+  font-size: 20px;
+  padding: 2% 0;
+}
+.welcome-area p {
+  color: #3c3c3c;
+  padding-bottom: 25px;
+}
+.welcome-area a {
+  background: linear-gradient(45deg, #5f27cd, #6c5ce7);
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 12px 40px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #576574;
+}
+.welcome-area a:hover {
+  box-shadow: none;
+}
+.welcome-img {
+  width: 42%;
+  height: auto;
+}
