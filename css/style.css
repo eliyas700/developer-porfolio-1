@@ -90,7 +90,7 @@ p {
 }
 /* Third Page */
 .third-page {
-  padding: 5%;
+  padding: 3%;
   background: url("../images/exp-bg.png") no-repeat;
   background-position: left;
 }
@@ -137,4 +137,10 @@ p {
   border-image: linear-gradient(#5f27cd, #0abde3);
   border-image-slice: 1;
   border-left: 9px solid;
+}
+/* Footer area */
+footer {
+  color: #3c3c3c;
+  text-align: center;
+  padding: 10px 0;
 }
