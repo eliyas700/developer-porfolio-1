@@ -7,6 +7,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+}
+p {
+  text-align: justify;
+}
 /* First Page */
 .front-page {
   display: flex;
@@ -34,7 +40,7 @@ img {
   color: #3c3c3c;
   padding-bottom: 25px;
 }
-.welcome-area a {
+.btn {
   background: linear-gradient(45deg, #5f27cd, #6c5ce7);
   text-decoration: none;
   margin: 20px 0;
@@ -46,10 +52,39 @@ img {
   border-radius: 5px;
   box-shadow: 5px 5px 20px #576574;
 }
-.welcome-area a:hover {
+.btn :hover {
   box-shadow: none;
 }
 .welcome-img {
   width: 42%;
   height: auto;
+}
+/* Second Page  */
+.second-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  background: url("../images/dream-bg.png") no-repeat;
+  background-position: right;
+}
+.dream-img {
+  width: 45%;
+  height: auto;
+}
+.dream-big {
+  width: 45%;
+  height: auto;
+}
+.dream-big h1 {
+  font-size: 50px;
+  padding: 5% 0;
+}
+.dream-big h4 {
+  font-size: 20px;
+  padding: 3% 0;
+}
+.dream-big p {
+  color: #3c3c3c;
+  text-transform: capitalize;
+  padding: 5% 0;
 }
